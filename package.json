@@ -1,10 +1,11 @@
 {
   "name": "cypress-bdd",
   "version": "1.0.0",
-  "description": "Cypress BDD Conceptand Practice",
+  "description": "Cypress BDD Cucumber Project",
   "main": "index.js",
   "scripts": {
     "cy_dashboard": "cypress run --record --key 17a1a6dc-83ff-4bc1-b039-052988c86220",
+    "cy_jenkins": "npm run cy_dashboard && node cucumber-html-report.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nityanand Gupta",
