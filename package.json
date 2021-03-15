@@ -1,0 +1,30 @@
+{
+  "name": "cypress-bdd",
+  "version": "1.0.0",
+  "description": "Cypress BDD Conceptand Practice",
+  "main": "index.js",
+  "scripts": {
+    "cy_dashboard": "cypress run --record --key 17a1a6dc-83ff-4bc1-b039-052988c86220",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nityanand Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

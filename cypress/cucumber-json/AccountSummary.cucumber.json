@@ -1,0 +1,119 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the different features of the Account Summary page",
+    "line": 1,
+    "id": "test-the-different-features-of-the-account-summary-page",
+    "tags": [],
+    "uri": "AccountSummary.feature",
+    "elements": [
+      {
+        "id": "test-the-different-features-of-the-account-summary-page;test-the-logout-button",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test the Logout Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Load the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Click the signin Button",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "user",
+                      "pass"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Login with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 1743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see login Page",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click on Username & Assert",
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Click on Logout Button & Assert",
+            "result": {
+              "status": "passed",
+              "duration": 769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Come back to Home Page & Assert Logout",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

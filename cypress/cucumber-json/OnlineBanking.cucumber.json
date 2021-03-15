@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the different features of the Online Banking page",
+    "line": 1,
+    "id": "test-the-different-features-of-the-online-banking-page",
+    "tags": [],
+    "uri": "OnlineBanking.feature",
+    "elements": [
+      {
+        "id": "test-the-different-features-of-the-online-banking-page;move-to-online-banking-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Move to Online Banking Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Load the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 1214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Click at the Online Banking",
+            "result": {
+              "status": "passed",
+              "duration": 571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Assert the Online Banking Page",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
